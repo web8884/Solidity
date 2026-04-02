@@ -16,7 +16,6 @@ contract SimpleNFT {
         uint256 indexed tokenId
     );
 
-
     constructor(string memory _name, string memory _symbol) {
         name = _name;
         symbol = _symbol;
